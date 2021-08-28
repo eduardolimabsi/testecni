@@ -1,0 +1,23 @@
+{
+  "name": "testecni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "devstart": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardolimabsi/testecni.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardolimabsi/testecni/issues"
+  },
+  "homepage": "https://github.com/eduardolimabsi/testecni#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

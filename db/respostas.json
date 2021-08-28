@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "questao": "A agilidade nasce:",
+      "alternativas": [
+        "no contexto das empresas de hardware.",
+        "no contexto governamental.",
+        "por acaso graças ao jogo de futebol.",
+        "com o objetivo de melhorar os processos de trabalho."
+      ],
+      "gabarito": "d"
+    },
+    {
+      "id": 2,
+      "questao": "Quais são as principais quebras de paradigma?",
+      "alternativas": [
+        "Realizar o trabalho de forma vinculada aos cronogramas rígidos de entrega.",
+        "A possibilidade de rever o escopo do projeto mesmo depois dele ter iniciado.",
+        "Não se importar mais com o produto ou serviço demandado pelos clientes."
+      ],
+      "gabarito": "b"
+    },
+    {
+      "id": 3,
+      "questao": "O Manifesto Ágil diz que:",
+      "alternativas": [
+        "é importante valorizar mais os processos e as ferramentas do que os indivíduos e as interações.",
+        "é importante valorizar mais o custo do projeto que o valor que o projeto gera.",
+        "a colaboração com o cliente é mais importante que a definição de um contrato.",
+        "a conversa e a colaboração com o cliente são mais importantes que fazer respeitar eventuais contratos assinados entre as partes."
+      ],
+      "gabarito": "d"
+    },
+    {
+      "id": 4,
+      "questao": "Segundo o Manifesto Ágil:",
+      "alternativas": [
+        "responder às mudanças que ocorrem é menos importante que seguir um cronograma.",
+        "as datas de entrega não têm valor nenhum para quem trabalha de forma ágil.",
+        "é mais importante ter um produto que funcione do que ter uma documentação abrangente sobre o trabalho a ser realizado.",
+        "se para entregar um produto que funcione eu precise rever o cronograma, é importante rever o cronograma e entregar um produto o mais rápido possível para o cliente."
+      ],
+      "gabarito": "c"
+    },
+    {
+      "id": 5,
+      "questao": "O que significa afirmar que o mundo está em uma constante aceleração de mudança?",
+      "alternativas": [
+        "Que é possível prever cenários estáveis nos contextos de mercado.",
+        "Que, por mais que eu me esforce para prever o que pode acontecer, eu preciso estar preparado para o inesperado e conseguir responder às mudanças de forma rápida.",
+        "Que a mudança é uma constante presente no nosso dia a dia dentro das organizações, mas precisamos avaliar todos os fatores antes de mudar."
+      ],
+      "gabarito": "b"
+    },
+    {
+      "id": 6,
+      "questao": "A vida média das empresas: ",
+      "alternativas": [
+        "aumentou nos últimos anos.",
+        "permanece a mesma desde 1960.",
+        "diminuiu nos últimos anos."
+      ],
+      "gabarito": "c"
+    },
+    {
+      "id": 7,
+      "questao": "O que gerou a diminuição da “expectativa de vida” das empresas?",
+      "alternativas": [
+        "As novas necessidades criadas pelos clientes e a contínua inovação tecnológica.",
+        "As leis trabalhistas.",
+        "A desaceleração da mudança em várias sistemas (organizacionais, culturais, ambientais etc.)."
+      ],
+      "gabarito": "a"
+    },
+    {
+      "id": 8,
+      "questao": "Neste novo contexto, é essencial:",
+      "alternativas": [
+        "ter a visão e o entendimento de que a mudança é constante, mas nem sempre é necessária.",
+        "entender que líderes e empresas precisam aprender a se adaptar aos novos contextos.",
+        "usar rigidamente as mesmas estratégias usadas anteriormente.",
+        "desistir o quanto antes se algo não funciona."
+      ],
+      "gabarito": "b"
+    },
+    {
+      "id": 9,
+      "questao": "Se as empresas, por sua natureza, são lentas em seus processos de mudança:",
+      "alternativas": [
+        "as pessoas precisam ter autonomia para realizar as mudanças dentro de seus escopos de atuação.",
+        "as equipes têm que ter cuidado ao serem instrumentos de mudança internos.",
+        "é desnecessário tentar mudar o próprio jeito de trabalhar.",
+        "repensar os métodos de trabalho dentro das equipes pode ser bem desgastante."
+      ],
+      "gabarito": "a"
+    },
+    {
+      "id": 10,
+      "questao": "O que são ambientes de confiança?",
+      "alternativas": [
+        "ambientes de trabalho onde é permitido demonstrar a própria vulnerabilidade sem medo do julgamento.",
+        "ambientes de trabalho onde é permitido fazer tudo sem se preocupar com os resultados.",
+        "ambientes onde as pessoas fazem o que querem sem ter que responder pelas suas ações.",
+        "são a base para criar processos de trabalhos que necessitam de aprovações o tempo todo."
+      ],
+      "gabarito": "a"
+    }
+  ]
