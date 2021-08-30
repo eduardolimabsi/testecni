@@ -1,7 +1,7 @@
 {
   "name": "testecni",
   "version": "1.0.0",
-  "description": "",
+  "description": "desafio de uma api para o cni, alunos",
   "main": "index.js",
   "scripts": {
     "start": "node ./server.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/eduardolimabsi/testecni.git"
   },
-  "author": "",
+  "author": "eduardolimabsi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/eduardolimabsi/testecni/issues"
