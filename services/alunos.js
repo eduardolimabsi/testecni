@@ -22,7 +22,15 @@ exports.saveAlunos = async (req, res) => {
 
 exports.alunosRespostas = async (req, res) => {
     // Pega todos os alunos no banco
-    let allAlunos = await alunos.getAlunos()
+    let allAlunos
+    try {
+        allAlunos = await alunos.getAlunos()
+    } catch (err) {
+        res.status(500).send({
+            status: 500,
+            message: err
+        })
+    }
     // Faz uma lista com todos os ids de alunos
     let allIds = allAlunos.map(aluno => aluno.id)
     // Verifica se o Id Passado na requisição existe no banco, se não existir retorna um erro
@@ -83,17 +91,17 @@ exports.alunosRespostas = async (req, res) => {
 exports.getStatusAluno = async function (req, res) {
     let idRequerido = req.params.id
     let retornar = { }
+    let allAlunos
     // Compara o id Requerido com a variável data
-    alunos.getAlunos((data) => {
-        let alunos = JSON.parse(data)
-        let aluno = alunos.filter(aluno => aluno.id === idRequerido)
-        console.log(aluno)
-        retornar["nome"] = aluno[0].nome
-        retornar["nota"] = aluno[0].nota
-        retornar["email"] = aluno[0].email
-        retornar["aprovado"] = aluno[0].aprovado
-        retornar["data_do_teste"] = aluno[0].data_do_teste
-        console.log(retornar)
-        res.send(JSON.stringify(retornar))
-    })
+
+    allAlunos = await alunos.getAlunos()
+
+    let aluno = allAlunos.filter(aluno => aluno.id === idRequerido)
+    retornar["nome"] = aluno[0].nome
+    retornar["nota"] = aluno[0].nota ? aluno[0].nota : 0
+    retornar["email"] = aluno[0].email
+    retornar["aprovado"] = aluno[0].aprovado ? aluno[0].aprovado : false
+    retornar["data_do_teste"] = aluno[0].data_do_teste ? aluno[0].data_do_teste : null
+    res.status(200).send(JSON.stringify(retornar))
+
 }
